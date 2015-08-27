@@ -1,10 +1,10 @@
 # Sinatra Playlister
 
-##Objectives 
+##Objectives
 
-* Solidify your ActiveRecord understanding 
+* Solidify your ActiveRecord understanding
 * Build out basic views for all your models
-* Create forms for editing and creating a new song that returns a well-structured params hash 
+* Create forms for editing and creating a new song that returns a well-structured params hash
 
 
 ### Overview
@@ -46,12 +46,12 @@ To get the data into your database, you will want to figure out how to use your 
 
 ### How to approach this lab
 
-Get the basics of the app working first, which means we have five specs in total and you should first pass all three model specs. 
+Get the basics of the app working first, which means we have five specs in total and you should first pass all three model specs.
 
-By typing 
+By typing
 
 ```bash
-rspec spec/models/01_artist_spec.rb 
+rspec spec/models/01_artist_spec.rb
 ```
 
 in your bash/ command line you will only run that spec. It is important to run the specs in there numeric order. You will notice even after adding a table, model, and controller your specs are still not passing, but the error messages are changing. You have to read every errror message carefully to understand what to do next.
@@ -65,7 +65,7 @@ For the last spec `05_song_form_spec.rb` you need to implement the following fea
 2. `/songs/:slug/edit`
   * I should be able to change everything about a song, including the genres associated with it and its artist.
 
-Think about the custom writer or writers you may need to write to make these features work. 
+Think about the custom writer or writers you may need to write to make these features work.
 
 ### Resources
 * [Clean ULR - Slugs](http://en.wikipedia.org/wiki/Slug_(web_publishing)#Slug)
